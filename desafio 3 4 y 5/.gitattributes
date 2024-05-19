@@ -1,0 +1,12 @@
+# Configuración para manejar automáticamente los finales de línea en todos los archivos de texto
+* text=auto
+
+# Definir explícitamente los finales de línea para archivos específicos si es necesario
+*.py text eol=lf
+
+# Asegurar que los archivos binarios no tengan cambios en los finales de línea
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary
+*.exe binary
